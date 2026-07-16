@@ -1,0 +1,18 @@
+# @author lusistd
+name: ChatCooldown
+version: 1.0
+main: com.lusistd.chatcooldown.ChatCooldown
+api-version: 1.13
+author: lusistd
+commands:
+  chatcooldown:
+    description: Manage ChatCooldown settings.
+    usage: /chatcooldown reload
+    aliases: [cc, chatcd]
+permissions:
+  chatcooldown.bypass:
+    description: Bypass cooldown and duplicate message restrictions.
+    default: op
+  chatcooldown.admin:
+    description: Allows use of /chatcooldown reload command.
+    default: op

@@ -1,0 +1,13 @@
+# @author lusistd
+cooldown:
+  enabled: true
+  seconds: 3
+
+duplicate-message:
+  enabled: true
+
+messages:
+  cooldown-wait: "&cPlease wait &e%time% seconds &cbefore sending another message."
+  duplicate-message: "&cYou cannot send the same message twice in a row."
+  reload-success: "&aChatCooldown config reloaded."
+  no-permission: "&cYou don't have permission to use this command."
